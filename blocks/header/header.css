@@ -1,9 +1,11 @@
 .header {
-  width: 1280;
+  /*width: 1280;*/
   color: #FFFFFF;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /*justify-content: center;*/
+  align-items: center;
   margin-left: 148px;
   margin-right:148px;
+  /*background-color: #2A2C2F;*/
 }
