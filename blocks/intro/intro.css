@@ -1,0 +1,9 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  color: #FFF;
+  font-family: 'inter';
+  text-align: left;
+
+}
