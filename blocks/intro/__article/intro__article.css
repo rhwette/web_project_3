@@ -1,0 +1,11 @@
+.intro__article {
+  height: 156px;
+  width: 720px;
+  font-family: 'Inter';
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26.08px;
+  padding-left: 148px;
+  padding-right: 412px;
+  text-align: left;
+}
