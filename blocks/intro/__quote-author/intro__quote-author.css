@@ -5,8 +5,8 @@
   font-weight: 400px;
   font-size: 24px;
   line-height: 34px;
-  padding-left: 148px;
-  padding-right: 412px;
-  padding-top: 10px;
+  margin: 0 auto;
+  margin-left: 148px;
+  margin-right: 412px;
   text-align: right;
 }
