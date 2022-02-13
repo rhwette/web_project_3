@@ -1,3 +1,9 @@
 .page {
-  max-width: 1184px;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2A2C2F;
+  margin: 0;
 }
+
