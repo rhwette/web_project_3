@@ -1,0 +1,27 @@
+.intro__container{
+  width: 785px;
+  height: 490px;
+  margin: 0;
+  margin-right: 0;
+  padding-left: 148px;
+  border: 4px dotted yellow;
+}
+
+@media screen and (max-width: 768px){
+  .intro__container{
+    /*width: 720px;
+    height: 102px;*/
+    margin:0;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .intro__container{
+    /*width: 288px;
+    height: 34px;*/
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

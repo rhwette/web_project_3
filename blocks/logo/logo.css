@@ -1,10 +1,26 @@
 .logo {
   width: 270px;
   height: 70px;
-  margin-left: 505px;
-  margin-right: 505px;
+  padding-left: 505px;
+  padding-right: 505px;
   padding-top: 34px;
-  /*border-style:solid;*/
-  /*border-color: red;*/
-  /*border-width: 5px;*/
+  border: 1px solid green;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    padding-left: 249px;
+    padding-right: 249px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 200px;
+    height: 52px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+  }
+}
+

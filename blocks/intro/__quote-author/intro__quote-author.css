@@ -1,12 +1,32 @@
 .intro__quote-author {
-  height: 34px;
   width: 720px;
-  font-family: 'Inter';
+  height: 34px;
+/*font-family: 'Inter';*/
   font-weight: 400px;
   font-size: 24px;
   line-height: 34px;
-  margin: 0 auto;
-  margin-left: 148px;
-  margin-right: 412px;
+  margin: 0;
+  /*padding-left: 148px;
+  padding-right: 412px;*/
   text-align: right;
+}
+
+@media screen and (max-width: 768px){
+  .intro__quote-author{
+    /*width: 720px;
+    height: 34px;*/
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .intro__quote-author{
+    width: 288px;
+    height: 34px;
+    /*padding-left: 16px;
+    padding-right: 16px;*/
+    padding-top: 10px;
+  }
 }

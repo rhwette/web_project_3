@@ -1,0 +1,41 @@
+.lead__title {
+  max-width: 785px;
+  width: 793px;
+  height: 200px;
+  /*font-family: 'Inter';*/
+  font-weight: 900px;
+  font-size: 96px;
+  font-style: normal;
+  line-height: 100px;
+  text-align: center;
+  margin: 0;
+  /*margin: 0 auto;*/
+  padding-left: 243px;
+  padding-right: 244px;
+  padding-top: 91px;
+  color: #FFFFFF;
+  border: 1px solid yellow;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title{
+    /*max-width: 768px;*/
+    width: 720px;
+    height: 300px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 90.83px;
+  } 
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title{
+    width: 288px;
+    height: 132px;
+    font-size: 40px;
+    line-height: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 50.89px;
+  }
+}
