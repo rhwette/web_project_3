@@ -1,5 +1,7 @@
 .intro {
   max-width: 1280px;
+  width: 785px;
+  height: 490px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -17,7 +19,7 @@
 @media screen and (max-width: 768px){
   .intro{
     width: 720px;
-    height: 174px;
+    height: 548px;
     /*padding-left: 24px;
     padding-right: 24px;*/
     /*padding-top: 88px;*/
@@ -27,7 +29,7 @@
 @media screen and (max-width: 320px){
   .intro{
     width: 288px;
-    height: 140px;
+    height: 886px;
     padding-left: 16px;
     padding-right: 16px;
   }
