@@ -9,19 +9,21 @@
 
 @media screen and (max-width: 768px){
   .intro__container{
-    /*width: 720px;
-    height: 102px;*/
+    width: 720px;
+    height: 102px;
     margin:0;
     padding-left: 24px;
     padding-right: 24px;
+    border: 4px dotted pink;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro__container{
-    /*width: 288px;
-    height: 34px;*/
+    width: 288px;
+    height: 34px;
     padding-left: 16px;
     padding-right: 16px;
+    border: 4px dotted blue;
   }
 }

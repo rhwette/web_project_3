@@ -1,0 +1,32 @@
+.photo-grid {
+  max-width: 1280px;
+  width: 1184px;
+  height: 442px;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 118px;
+  margin: 0;
+  border: 10px solid purple;
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    width: 720px;
+    height: 1104px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 90px;
+    border: 10px solid green;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    width: 288px;
+    height: 1812px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 90px;
+    border: 10px solid yellow;
+  }
+}

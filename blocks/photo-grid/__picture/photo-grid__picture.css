@@ -1,0 +1,19 @@
+.photo-grid__picture {
+  width: 284px;
+  height: 213px;
+  /*border: 5px dashed yellow;*/
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__picture {
+    width: 352px;
+    height: 264px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__picture {
+    width: 288px;
+    height: 216px;
+  }
+}
