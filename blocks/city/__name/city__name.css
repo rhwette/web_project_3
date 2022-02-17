@@ -1,0 +1,11 @@
+.city__name {
+  width: 460px;
+  height: 152px;
+  padding-left: 3px;
+  padding-right: 40px;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  font-style: normal;
+  color: #FFF;
+}
