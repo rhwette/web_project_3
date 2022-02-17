@@ -13,10 +13,7 @@
 @import url(../blocks/intro/__quote/intro__quote.css);
 @import url(../blocks/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/intro/__article/intro__article.css);
-@import url(../blocks/collection/collection.css);
-@import url(../blocks/collection/__slides/collection__slides.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__format/photo-grid__format.css);
 @import url(../blocks/photo-grid/__style/photo-grid__style.css);
 @import url(../blocks/photo-grid/__picture/photo-grid__picture.css);
-@import url(../blocks/wrap/wrap.css);
