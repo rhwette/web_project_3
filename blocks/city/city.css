@@ -1,4 +1,15 @@
 .city {
   margin-left: 148px;
   margin-right: 672px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Inter;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas:
+    "name artist"
+    "picture descript"
+    "button ."
+    ". .";
 }

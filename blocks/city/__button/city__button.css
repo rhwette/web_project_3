@@ -1,10 +1,5 @@
 .city__button {
-  width: 208px;
-  height: 22px;
-  padding: 61px 904px 0 168px;
-  font-size: 18px;
-  line-height: 21.78px;
-  font-weight: 600;
-  font-style: normal;
-  color: #FFF;
+  grid-area: button;
+  padding-left: 3px;
+
 }

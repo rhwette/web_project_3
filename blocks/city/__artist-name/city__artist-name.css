@@ -1,10 +1,13 @@
-.city__artist-name.css {
+.city__artist-name {
   width: 456px;
   height: 22px;
+  /*padding-top: 130px;*/
   padding-top: 8px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   font-style: normal;
   color: #FFF;
+  margin: 0;
+  border: 5px dotted red;
 }

@@ -8,4 +8,6 @@
   font-weight: 900;
   font-style: normal;
   color: #FFF;
+  margin: 0;
+  grid-area: name;
 }

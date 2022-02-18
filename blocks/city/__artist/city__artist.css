@@ -1,0 +1,4 @@
+.city__artist {
+  grid-area: artist;
+  border: 10px solid yellow;
+}

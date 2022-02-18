@@ -1,4 +1,4 @@
-.city__artist-label.css {
+.city__artist-label {
   width: 50px;
   height: 15px;
   font-size: 12px;
@@ -6,4 +6,7 @@
   font-weight: 400;
   font-style: normal;
   color: #AAA;
+  margin: 0;
+  padding-top: 107px;
+  border: 2px dotted yellow;
 }

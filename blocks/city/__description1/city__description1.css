@@ -1,10 +1,14 @@
-.city__description1.css {
+.city__description1 {
   width: 484px;
-  height: 174px;
+  /*height: 174px;*/
+  height: 203px;
   padding: 48px 148px 0 0;
   font-size: 18px;
   line-height: 29.34px;
   font-weight: 400;
   font-style: normal;
   color: #FFF;
+  margin: 0;
+  border: 5px dotted blue;
+  grid-area: descript1;
 }
