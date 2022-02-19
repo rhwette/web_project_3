@@ -19,11 +19,15 @@
     padding-left: 0;
     padding-right: 28px;
     font-size: 42px;
-    line-height: 46px;
-    font-weight: 900;
-    font-style: normal;
-    color: #FFF;
-    margin: 0;
-    grid-area: name;
+    line-height: 46px;;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__name {
+    width: 288px;
+    height: 35px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

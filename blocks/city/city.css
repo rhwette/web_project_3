@@ -10,7 +10,7 @@
   grid-template-areas:
     "name artist"
     "picture descript"
-    "button .";
+    "button descript";
 }
 
 @media screen and (max-width: 768px) {
@@ -19,6 +19,20 @@
   grid-template-areas:
     "name artist"
     "picture descript"
-    "button .";
+    "button descript";
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city {
+    margin-left: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+    "name"
+    "artist"
+    "picture"
+    "descript"
+    "button";
   }
 }

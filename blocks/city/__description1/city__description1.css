@@ -2,7 +2,7 @@
   width: 484px;
   /*height: 174px;*/
   height: 203px;
-  padding: 48px 148px 0 0;
+  padding: 48px 148px 0 40px;
   font-size: 18px;
   line-height: 29.34px;
   font-weight: 400;
@@ -17,7 +17,22 @@
   .city__description1 {
     width: 352px;
     height: 208px;
+    padding: 46px 24px 0 28px;
     font-size: 16px;
     line-height: 26.08px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__description1 {
+    width: 288px;
+    height: 234px;
+    padding: 30px 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city__description1 {
+    padding-left: 0;
   }
 }

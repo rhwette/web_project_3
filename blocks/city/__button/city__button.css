@@ -1,25 +1,51 @@
 .city__button {
-  width: 252px;
-  height: 48px;
+  display: inline-block;
+  box-sizing: border-box;
   font-family: Inter;
-  margin-top: 48px;
-  padding: 13px 20px 13px 20px;
-  font-size: 18px;
+  font-size: 16px;
+  /*font-size: 18px;*/
   line-height: 21.78px;
   font-weight: 600;
   font-style: normal;
-  color: #FFF;
+  color:#FFFFFF;
+  width: 248px;
+  height: 48px;
   background-color: #0278FE;
+  text-align:center;
+  transition: all 0.2s;
+  margin-top: 48px;
+  padding: 13px 20px 13px 20px;
+  text-decoration: none;
   grid-area: button;
 }
 
+
+.city__button:hover {
+  background-color:green;
+  text-decoration: none;
+}
+
+
 @media screen and (max-width:768px) {
   .city__button {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    display:block;
+    padding-top: 48px;
+    padding-left: 24px;
     margin-top: 0;
-    margin-bottom: 50px;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .city__button {
+    width: 288px;
+    height: 48px;
+    margin-top: 30px;
+    padding: 13px 40px 13px 40px;
+    text-decoration: none;
+  }
+}
+
+
+

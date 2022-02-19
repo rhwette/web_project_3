@@ -8,11 +8,25 @@
   color: #AAA;
   margin: 0;
   padding-top: 107px;
+  padding-left: 40px;
   /*border: 2px dotted yellow;*/
 }
 
-@media screen and (max-width:768px) {
-  .city__artist-label {
-    padding-top: 0;
+@media screen and (max-width:768px){
+.city__artist-label{
+  padding-top: 0px;
+  padding-left: 28px;
+  /*margin-left: 392px;*/
+  }
+}
+
+@media screen and (max-width:320px) {
+.city__artist-label {
+  width: 288px;
+  height: 15px;
+  padding-top: 30px;
+  padding-left: 0;
+  /*padding-left: 16px;*/
+  padding-right:16px;
   }
 }

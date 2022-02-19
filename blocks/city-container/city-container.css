@@ -5,3 +5,15 @@
   margin: 92px 0 0 0;
   /*border: 2px solid blue;*/
 }
+
+@media screen and(max-width:768px){
+  .city-container {
+    margin: 88px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .city-container {
+    margin-left: 0;
+  }
+}

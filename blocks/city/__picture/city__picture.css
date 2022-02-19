@@ -13,3 +13,13 @@
     padding: 46px 28px 0 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .city__picture {
+    width: 320px;
+    height: 320px;
+    padding-top: 30px;
+    margin-left: -16px;
+
+  }
+}
