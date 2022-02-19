@@ -19,13 +19,12 @@
 @import url(../blocks/photo-grid/__picture/photo-grid__picture.css);
 @import url(../blocks/city-container/city-container.css);
 @import url(../blocks/city/city.css);
+@import url(../blocks/city/__name/city__name.css);
 @import url(../blocks/city/__artist/city__artist.css);
 @import url(../blocks/city/__artist-label/city__artist-label.css);
 @import url(../blocks/city/__artist-name/city__artist-name.css);
+@import url(../blocks/city/__picture/city__picture.css);
 @import url(../blocks/city/__button/city__button.css);
-@import url(../blocks/city/__button-text/city__button-text.css);
 @import url(../blocks/city/__descript/city__descript.css);
 @import url(../blocks/city/__description1/city__description1.css);
 @import url(../blocks/city/__description2/city__description2.css);
-@import url(../blocks/city/__name/city__name.css);
-@import url(../blocks/city/__picture/city__picture.css);

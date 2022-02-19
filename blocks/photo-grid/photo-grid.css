@@ -6,7 +6,7 @@
   padding-right: 48px;
   padding-top: 118px;
   margin: 0;
-  border: 10px solid purple;
+  /*border: 10px solid purple;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -16,7 +16,7 @@
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 90px;
-    border: 10px solid green;
+    /*border: 10px solid green;*/
   }
 }
 
@@ -27,6 +27,5 @@
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 90px;
-    border: 10px solid yellow;
-  }
+    /*border: 10px solid yellow;*/
 }

@@ -9,5 +9,12 @@
   font-style: normal;
   color: #FFF;
   margin: 0;
-  border: 5px dotted red;
+  /*border: 5px dotted red;*/
+}
+
+@media screen and (max-width: 768px) {
+  .city__artist-name {
+    width: 316px;
+    height: 22px;
+  }
 }

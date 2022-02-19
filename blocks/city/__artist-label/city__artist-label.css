@@ -8,5 +8,11 @@
   color: #AAA;
   margin: 0;
   padding-top: 107px;
-  border: 2px dotted yellow;
+  /*border: 2px dotted yellow;*/
+}
+
+@media screen and (max-width:768px) {
+  .city__artist-label {
+    padding-top: 0;
+  }
 }

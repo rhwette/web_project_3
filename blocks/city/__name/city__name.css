@@ -11,3 +11,19 @@
   margin: 0;
   grid-area: name;
 }
+
+@media screen and (max-width: 768px) {
+  .city__name {
+    width: 340px;
+    height: 46px;
+    padding-left: 0;
+    padding-right: 28px;
+    font-size: 42px;
+    line-height: 46px;
+    font-weight: 900;
+    font-style: normal;
+    color: #FFF;
+    margin: 0;
+    grid-area: name;
+  }
+}

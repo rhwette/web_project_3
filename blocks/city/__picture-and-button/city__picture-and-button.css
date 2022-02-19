@@ -1,0 +1,20 @@
+.city__picture-and-button {
+  grid-area: p-and-b;
+}
+
+
+/*
+.city__button {
+  grid-area: button;
+  padding-left: 3px;
+  margin-bottom: 80px;
+  grid-area: button;
+}
+
+@media screen and (max-width: 768px) {
+  .city__button {
+    padding-left: 0;
+    margin-bottom: 124px;
+  }
+}
+*/

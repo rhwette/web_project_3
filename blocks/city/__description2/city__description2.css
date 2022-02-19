@@ -9,6 +9,15 @@
   font-style: normal;
   color: #FFF;
   margin: 0;
-  border: 2px dotted yellow;
-  grid-area: descript2;
+  /*border: 2px dotted yellow;*/
+  /*grid-area: descript2;*/
+}
+
+@media screen and (max-width: 768px) {
+  .city__description2 {
+    width: 352px;
+    height: 234px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
 }
