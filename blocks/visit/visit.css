@@ -1,19 +1,42 @@
 .visit {
-  background-image: url("../../images/Visit-Us.png");
+  
+  /*background-image: url("../../images/Visit-Us.png");*/
   width: 1184px;
   height: 740px;
+  position: relative;
   margin: 92px 48px 92px 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*align-items: center;*/
   text-align: center;
   font-family: Inter;
   color: #FFF;
-  opacity: 1;
 }
 
-.visit:hover {
-  opacity: .8;
+.visit::before {
+  content: "";
+  background-image: url("../../images/Visit-Us.png");
+  opacity: 0.8;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width: auto;
+  height: auto;
+  z-index: -3;
 }
+
+.visit:hover::before {
+  opacity: 0.2;
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .visit {
+    width: 768px;
+    height: 746px;
+  }
+}
+*/
