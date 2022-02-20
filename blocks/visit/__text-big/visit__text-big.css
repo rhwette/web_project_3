@@ -1,0 +1,15 @@
+.visit__text-big {
+  width: 656px;
+  height: 76px;
+  margin: 0;
+  padding-bottom: 32px;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;*/
+  font-family: Inter;
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+  text-align: center;
+}

@@ -10,7 +10,8 @@
   .city__picture {
     width: 340px;
     height: 340px;
-    padding: 46px 28px 0 0;
+    /*padding: 46px 28px 0 0;*/
+    padding: 0 28px 0 0;
   }
 }
 

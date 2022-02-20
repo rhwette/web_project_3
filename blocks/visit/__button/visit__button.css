@@ -1,27 +1,23 @@
-.city__button {
+.visit__button {
+  width:  137px;
+  height: 48px;
   display: inline-block;
   box-sizing: border-box;
   font-family: Inter;
-  font-size: 16px;
-  /*font-size: 18px;*/
+  font-size: 18px;
   line-height: 21.78px;
   font-weight: 600;
-  font-style: normal;
+  /*margin-top: 32px;*/
+  /*padding: 13px 20px 13px 20px;*/
   color:#FFFFFF;
-  width: 248px;
-  height: 48px;
   background-color: #0278FE;
   text-decoration: none;
   border-radius: 4px;
   text-align:center;
   transition: all 0.2s;
-  margin-top: 48px;
-  padding: 13px 20px 13px 20px;
-  grid-area: button;
 }
 
-
-.city__button:hover {
+.visit__button:hover {
   background-color:#0063D2;
   text-decoration: none;
   border-radius: 4px;
@@ -48,6 +44,4 @@
     text-decoration: none;
   }
 }
-
-
-
+*/

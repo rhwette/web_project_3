@@ -28,3 +28,7 @@
 @import url(../blocks/city/__descript/city__descript.css);
 @import url(../blocks/city/__description1/city__description1.css);
 @import url(../blocks/city/__description2/city__description2.css);
+@import url(../blocks/visit/visit.css);
+@import url(../blocks/visit/__button/visit__button.css);
+@import url(../blocks/visit/__text-big/visit__text-big.css);
+@import url(../blocks/visit/__text-small/visit__text-small.css);

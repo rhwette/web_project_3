@@ -1,6 +1,7 @@
 .city__description2 {
   width: 484px;
-  height: 203px;
+  /*height: 203px;*/
+  max-height: 232px;
   padding: 25px 148px 0 40px;
   font-size: 18px;
   line-height: 29.34px;
@@ -15,8 +16,9 @@
 @media screen and (max-width: 768px) {
   .city__description2 {
     width: 352px;
-    height: 234px;
-    padding: 25px 24px 0 24px;
+    /*height: 234px;*/
+    max-height: 260px;
+    padding: 25px 24px 0 28px;
     font-size: 16px;
     line-height: 26.08px;
   }
@@ -25,7 +27,8 @@
 @media screen and (max-width: 320px) {
   .city__description2 {
     width: 288px;
-    height: 286px;
+    /*height: 286px;*/
+    max-height: 312px;
     padding-left: 0;
     padding-top: 25px;
     padding-right: 16px;
