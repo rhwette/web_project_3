@@ -1,10 +1,10 @@
 .visit__image {
-  background-image: url("../../images/Visit-Us.png");
+  /*background-image: url("../../images/Visit-Us.png");*/
   width: 1184px;
   height: 740px;
   margin: 92px 48px 92px 48px;
-  opacity: 0.8;
-  border: 5px solid red;
+  /*opacity: 0.3;*/
+  /*border: 5px solid red;*/
   /*z-index: -2;*/
   /*
   display: flex;
@@ -16,7 +16,27 @@
   color: #FFF;
   */
 }
-
+/*
 .visit__image:hover {
-  opacity: 0.2;
+  opacity: 0.8;
 }
+*/
+/*
+.visit::before {
+  content: "";
+  background-image: url("../../images/Visit-Us.png");
+  opacity: 0.3;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width: auto;
+  height: auto;
+  z-index: -3;
+}
+
+.visit:hover::before {
+  opacity: 0.8;
+}
+*/

@@ -12,7 +12,11 @@
   text-align: center;
   font-family: Inter;
   color: #FFF;
+  border: 4px dotted yellow;
+
+
 }
+
 
 .visit::before {
   content: "";
@@ -28,8 +32,9 @@
   z-index: -3;
 }
 
+
 .visit:hover::before {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 /*

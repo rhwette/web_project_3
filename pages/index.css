@@ -33,3 +33,5 @@
 @import url(../blocks/visit/__text-big/visit__text-big.css);
 @import url(../blocks/visit/__text-small/visit__text-small.css);
 @import url(../blocks/visit/__image/visit__image.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
