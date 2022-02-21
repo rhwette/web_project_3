@@ -3,7 +3,7 @@
   margin-right: 672px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, auto);

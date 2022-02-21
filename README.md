@@ -15,6 +15,8 @@
      (1184, 768, 320) 
 * grid and flexbox assist with positioning 
 * images compressed using https://tinypng.com/
+* the "Inter" font is included (style:normal at weights: 400, 600, and 900) 
+* the project repository is located at https://github.com/rhwette/web_project_3.git
 
   
 ### Plans for Future Updates 
