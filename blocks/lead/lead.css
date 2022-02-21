@@ -1,11 +1,5 @@
 .lead {
-  /*max-width: 1280;*/
   font-family: 'inter';
   color: #FFFFFF;
-  /*display: flex;
-  flex-direction: column;
-  align-items: left;*/
   text-align: center;
-  /*margin: 0 auto;*/
-  /*border: 5px dotted pink;*/
 }

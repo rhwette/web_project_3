@@ -15,8 +15,6 @@
 @media screen and (max-width: 768px) {
   .city__name {
     width: 340px;
-    /*height: 46px;*/
-    /*max-height: 92px;*/
     max-height: 92px;
     padding-left: 0;
     padding-right: 28px;

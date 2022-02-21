@@ -7,17 +7,14 @@
   font-style: normal;
   color: #AAA;
   margin: 0;
-  /*padding-top: 107px*/
   padding-top: 84px;
   padding-left: 40px;
-  /*border: 2px dotted yellow;*/
 }
 
 @media screen and (max-width:768px){
 .city__artist-label{
   padding-top: 0px;
   padding-left: 28px;
-  /*margin-left: 392px;*/
   }
 }
 
@@ -27,7 +24,6 @@
   height: 15px;
   padding-top: 30px;
   padding-left: 0;
-  /*padding-left: 16px;*/
   padding-right:16px;
   }
 }

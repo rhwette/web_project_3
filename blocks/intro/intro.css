@@ -8,21 +8,13 @@
   color: #FFF;
   font-family: 'inter';
   text-align: left;
-  /*border: 2px dashed white;*/
   margin: 0;
-  /*margin-left: 148px;
-  margin-right: 471px;
-  margin-top: 0;
-  margin-bottom: 0;*/
 }
 
 @media screen and (max-width: 768px){
   .intro{
     width: 720px;
     height: 548px;
-    /*padding-left: 24px;
-    padding-right: 24px;*/
-    /*padding-top: 88px;*/
   }
 }
 

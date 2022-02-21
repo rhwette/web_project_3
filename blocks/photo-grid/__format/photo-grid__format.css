@@ -1,12 +1,9 @@
 .photo-grid__format {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /*grid-column-gap: 16px;
-  grid-row-gap: 16px;*/
   column-gap: 16px;
   row-gap: 16px;
   margin: 0;
-  /*border: 3px solid red;*/
   padding-left:0;
 }
 

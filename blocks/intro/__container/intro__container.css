@@ -4,7 +4,6 @@
   margin: 0;
   margin-right: 0;
   padding-left: 148px;
-  /*border: 4px dotted yellow;*/
 }
 
 @media screen and (max-width: 768px){
@@ -14,7 +13,6 @@
     margin:0;
     padding-left: 24px;
     padding-right: 24px;
-    /*rder: 4px dotted pink;*/
   }
 }
 
@@ -24,6 +22,5 @@
     height: 34px;
     padding-left: 16px;
     padding-right: 16px;
-    /*border: 4px dotted blue;*/
   }
 }

@@ -1,23 +1,39 @@
+
+/* VENDOR */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+/* PAGE*/
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__wrapper/page__wrapper.css);
+
+/* LOGO*/
 @import url(../blocks/logo/logo.css);
+
+/* LEAD*/
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__main-illustration/lead__main-illustration.css);
+
+/* INTRO*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__quote/intro__quote.css);
 @import url(../blocks/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/intro/__article/intro__article.css);
+
+/* PHOTO-GRID*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__format/photo-grid__format.css);
 @import url(../blocks/photo-grid/__style/photo-grid__style.css);
 @import url(../blocks/photo-grid/__picture/photo-grid__picture.css);
+
+/* CITY-CONTAINER*/
 @import url(../blocks/city-container/city-container.css);
+
+/* CITY*/
 @import url(../blocks/city/city.css);
 @import url(../blocks/city/__name/city__name.css);
 @import url(../blocks/city/__artist/city__artist.css);
@@ -28,10 +44,14 @@
 @import url(../blocks/city/__descript/city__descript.css);
 @import url(../blocks/city/__description1/city__description1.css);
 @import url(../blocks/city/__description2/city__description2.css);
+
+/* VISIT*/
 @import url(../blocks/visit/visit.css);
 @import url(../blocks/visit/__button/visit__button.css);
 @import url(../blocks/visit/__text-big/visit__text-big.css);
 @import url(../blocks/visit/__text-small/visit__text-small.css);
 @import url(../blocks/visit/__image/visit__image.css);
+
+/* FOOTER*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);

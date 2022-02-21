@@ -1,6 +1,4 @@
 .visit {
-  
-  /*background-image: url("../../images/Visit-Us.png");*/
   width: 1184px;
   height: 740px;
   position: relative;
@@ -13,7 +11,6 @@
   font-family: Inter;
   color: #FFF;
 }
-
 
 .visit::before {
   content: "";
@@ -29,16 +26,6 @@
   z-index: -3;
 }
 
-
 .visit:hover::before {
   opacity: 0.3;
 }
-
-/*
-@media screen and (max-width: 768px) {
-  .visit {
-    width: 768px;
-    height: 746px;
-  }
-}
-*/

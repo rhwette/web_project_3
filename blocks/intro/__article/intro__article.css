@@ -1,23 +1,16 @@
 .intro__article {
   width: 720px;
   height: 156px;
-  /*font-family: 'Inter';*/
   margin: 0;
   font-weight: 400px;
   font-size: 16px;
   line-height: 26.08px;
   padding-top: 32px;
-  /*padding-left: 148px;
-  padding-right: 412px;*/
   text-align: left;
 }
 
 @media screen and (max-width: 768px){
   .intro__article {
-    /*width: 720px;
-    height: 156px;*/
-   /* margin-left: 24px;
-    margin-right: 24px;*/
     padding-top: 32px;
   }
 }
@@ -26,8 +19,6 @@
   .intro__article {
     width: 288px;
     height: 390px;
-   /*margin-left: 16px;
-    margin-right: 16px;*/
     padding-top: 32px;
   }
 }

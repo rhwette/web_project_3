@@ -10,7 +10,6 @@
   .city__picture {
     width: 340px;
     height: 340px;
-    /*padding: 46px 28px 0 0;*/
     padding: 0 28px 0 0;
   }
 }
@@ -21,6 +20,5 @@
     height: 320px;
     padding-top: 30px;
     margin-left: -16px;
-
   }
 }

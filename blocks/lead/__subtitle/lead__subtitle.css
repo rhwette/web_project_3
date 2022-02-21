@@ -2,21 +2,16 @@
   max-width: 1280px;
   width: 720px;
   height: 72px;
-  /*font-family: 'Inter';*/
   font-weight: 400;
   font-size: 30px;
   font-style: normal;
   line-height: 36px;
   text-align: center;
   margin:0;
-  /*margin: 0 auto;*/
   padding-left: 280px;
   padding-right: 280px;
- /* margin-top: 0px;
-  margin-bottom: 0px;*/
   padding-top: 32px;
   color: #FFFFFF;
-  /*border: 2px solid orange;*/
 }
 
 @media screen and (max-width: 768px) {

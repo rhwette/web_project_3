@@ -1,7 +1,6 @@
 .photo-grid__picture {
   width: 284px;
   height: 213px;
-  /*border: 5px dashed yellow;*/
 }
 
 @media screen and (max-width: 768px) {
