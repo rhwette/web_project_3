@@ -1,4 +1,9 @@
 .page__wrapper {
-  max-width: 1280px;
-  margin: 0;
+ /* max-width: 1280px;*/
+ max-width: 1184px;
+ width: auto;
+ margin: 0;
+ border: 4px dashed yellow;
+ box-sizing: content-box;
+
 }
