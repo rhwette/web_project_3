@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 320x) {
+@media screen and (max-width: 320px) {
   .visit__text-small {
     width: 100%;
     max-width: 280px;
