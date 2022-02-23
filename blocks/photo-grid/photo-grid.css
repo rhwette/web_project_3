@@ -1,29 +1,28 @@
 .photo-grid {
-  max-width: 1280px;
-  width: 1184px;
+  width: 100%;
+  max-width: 1184px;
   height: 442px;
   padding-left: 48px;
   padding-right: 48px;
-  padding-top: 118px;
-  margin: 0;
-}
+  margin-top: 118px;
+ }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    width: 720px;
+    width: 100%;
+    max-width: 1104px;
     height: 1104px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 90px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    width: 288px;
+    width: 100%;
+    max-width: 1812;
     height: 1812px;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 90px;
   }
 }

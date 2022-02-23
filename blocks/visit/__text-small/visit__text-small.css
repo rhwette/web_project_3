@@ -1,5 +1,6 @@
 .visit__text-small {
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: 66px;
   margin: 0;
   padding-bottom: 32px;
@@ -7,4 +8,22 @@
   line-height: 22px;
   font-weight: 400;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .visit__text-small {
+    width: 100%;
+    max-width: 280px;
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 320x) {
+  .visit__text-small {
+    width: 100%;
+    max-width: 280px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }

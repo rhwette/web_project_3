@@ -1,37 +1,45 @@
 .lead__title {
-  max-width: 785px;
-  width: 793px;
+  width: 100%;
+  max-width: 793px;
   height: 200px;
   font-weight: 900px;
   font-size: 96px;
   font-style: normal;
   line-height: 100px;
   text-align: center;
-  margin: 0;
-  padding-left: 243px;
-  padding-right: 244px;
-  padding-top: 91px;
+  margin: 91px 0px 32px 0px;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 768px) {
   .lead__title{
-    width: 720px;
+    width: 100%;
+    max-width: 720px;
     height: 300px;
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 90.83px;
+    font-weight: 900px;
+    font-size: 96px;
+    font-style: normal;
+    line-height: 100px;
+    margin: 91px 0px 32px 0px;
   } 
 }
 
+  @media screen and (max-width: 608px) {
+    .lead__title {
+      padding-bottom: 96px;
+    }
+  }
+
 @media screen and (max-width: 320px) {
   .lead__title{
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     height: 132px;
     font-size: 40px;
     line-height: 44px;
-    padding-left: 16px;
-    padding-right: 16px;
+    margin-top: 0px;
+    margin-bottom: 32px;
     padding-top: 50.89px;
+    padding: 50.89px 0px 0px 0px;
   }
 }

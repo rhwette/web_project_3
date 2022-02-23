@@ -1,5 +1,6 @@
 .visit__text-big {
-  width: 656px;
+  width: 100%;
+  max-width: 656px;
   height: 76px;
   margin: 0;
   padding-bottom: 32px;
@@ -8,4 +9,21 @@
   line-height: 76px;
   font-weight: 900;
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .visit__text-big {
+    width: 100%;
+    max-width: 656px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .visit__text-big {
+    width: 100%;
+    max-width: 288px;
+    height: 35px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

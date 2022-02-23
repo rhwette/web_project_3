@@ -1,12 +1,14 @@
 .visit__image {
-   width: 1184px;
+  width: 100%;
+  max-width: 1184px;
   height: 740px;
   margin: 92px 48px 92px 48px;
 }
 
 @media screen and (max-width: 768px) {
   .visit__image {
-    width: 768px;
+    width: 100%;
+    max-width: 768px;
     height: 746px;
     margin: 105px 0px 0px 88px;
   }
@@ -14,7 +16,8 @@
 
 @media screen and (max-width: 320px) {
   .visit__image {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 254px;
     margin: 77px 0px 0px 64px;
   }

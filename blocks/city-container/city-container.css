@@ -1,16 +1,23 @@
 .city-container {
-  max-width: 1280px;
+  width: 100%;
+  max-width: 987px;
   margin: 92px 0 0 0;
+  padding-top: 92px;
+  border: 4px solid red;
 }
 
 @media screen and(max-width:768px){
   .city-container {
+    width: 100%;
+    max-width: 720px;
     margin: 88px 0 0 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city-container {
+    width: 100%;
+    max-width: 320px;
     margin-left: 0;
     margin-top: 50px;
   }
