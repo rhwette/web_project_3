@@ -1,10 +1,43 @@
 .visit__image {
-  width: 100%;
-  max-width: 1184px;
-  height: 740px;
-  margin: 92px 48px 92px 48px;
+width: 100%;
+max-width: 1184px;
+height: 740px;
+position: relative;
+margin: 92px 48px 92px 48px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: "Inter", Arial, sans-serif;
+color: #FFF;
 }
 
+/*
+.visit__image::before {
+  content: "";
+  background-image: url("../../images/Visit-Us.png");
+  opacity: 0.8;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  /*width: auto;
+  height: auto;*/
+  /*
+  width: 100%;
+  max-width: 1184px;
+  z-index: -3;
+}
+*/
+/*
+.visit__image:hover::before {
+  opacity: 0.3;
+}
+*/
+
+/*
 @media screen and (max-width: 768px) {
   .visit__image {
     width: 100%;
@@ -22,3 +55,4 @@
     margin: 77px 0px 0px 64px;
   }
 }
+*/
