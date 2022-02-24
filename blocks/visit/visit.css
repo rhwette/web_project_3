@@ -25,7 +25,6 @@
   left:0;
   width: auto;
   max-width: auto;
-  z-index: -3;
 }
 
 
@@ -79,7 +78,6 @@
   width: 100%;
   max-width: 320px;
   height: 254px;
-  z-index: -3;
 }
 
 .visit:hover::before {
