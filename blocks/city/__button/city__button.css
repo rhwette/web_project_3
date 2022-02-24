@@ -1,23 +1,24 @@
 .city__button {
+  background-color: #0278FE;
+  border: 2px solid #0278FE;
+  border-radius: 4px;
+  color:#FFFFFF;
+  padding: 13px 20px 13px 20px;
+  text-align:center;
   display: inline-block;
-  box-sizing: border-box;
-  font-family: Inter;
-  font-size: 16px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 18px;
   line-height: 21.78px;
   font-weight: 600;
   font-style: normal;
-  color:#FFFFFF;
-  width: 248px;
-  height: 48px;
-  background-color: #0278FE;
   text-decoration: none;
-  border-radius: 4px;
-  text-align:center;
-  transition: all 0.2s;
   margin-top: 48px;
-  padding: 13px 20px 13px 20px;
+  width: 100%;
+  max-width: 248px;
+  transition: all 0.2s;
   grid-area: button;
 }
+
 
 .city__button:hover {
   background-color:#0063D2;
@@ -25,24 +26,59 @@
   border-radius: 4px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .city__button {
-    display:block;
-    margin-top: 48px;
+    background-color: #0278FE;
+    border: 2px solid #0278FE;
+    border-radius: 4px;
+    color:#FFFFFF;
     padding: 13px 20px 13px 20px;
+    text-align:center;
+    display: inline-block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 10px;
+    line-height: 21.78px;
+    font-weight: 600;
+    font-style: normal;
     text-decoration: none;
+    margin-top: 48px;
+    width: 100%;
+    max-width: 248px;
+    height: 48px;
+    transition: all 0.2s;
+    grid-area: button;
+  }
+  .city__button:hover {
+    background-color:#0063D2;
+    text-decoration: none;
+    border-radius: 4px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city__button {
-    width: 288px;
-    height: 48px;
-    margin-top: 30px;
+    background-color: #0278FE;
+    border: 2px solid #0278FE;
+    border-radius: 4px;
+    color:#FFFFFF;
     padding: 13px 40px 13px 40px;
+    text-align:center;
+    display: inline-block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 21.78px;
+    font-weight: 600;
+    font-style: normal;
     text-decoration: none;
+    margin-top: 48px;
+    width: 100%;
+    max-width: 248px;
+    transition: all 0.2s;
+    grid-area: button;
+  }
+  .city__button:hover {
+    background-color:#0063D2;
+    text-decoration: none;
+    border-radius: 4px;
   }
 }
-
-
-

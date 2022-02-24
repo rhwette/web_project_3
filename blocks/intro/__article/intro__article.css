@@ -1,24 +1,25 @@
 .intro__article {
-  width: 100%;
-  max-width: 720px;
+  width: 720px;
   height: 156px;
   margin: 0px;
   font-weight: 400px;
   font-size: 16px;
   line-height: 26.08px;
   padding-top: 32px;
+  margin-bottom: 118px;
   text-align: left;
 }
 
 @media screen and (max-width: 768px){
   .intro__article {
-    width: 100%;
-    max-width: 720px;
+    width: 720px;
+    height: 156px;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro__article {
+    width: 288px;
     height: 390px;
   }
 }

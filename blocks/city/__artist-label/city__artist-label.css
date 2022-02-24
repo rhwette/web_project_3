@@ -1,5 +1,6 @@
 .city__artist-label {
-  width: 50px;
+  width: 100%;
+  max-width: 50px;
   height: 15px;
   font-size: 12px;
   line-height: 14.52px;
@@ -8,22 +9,22 @@
   color: #AAA;
   margin: 0;
   padding-top: 84px;
-  padding-left: 40px;
+  padding-bottom: 8px;
 }
 
 @media screen and (max-width:768px){
 .city__artist-label{
   padding-top: 0px;
-  padding-left: 28px;
+  padding-left: 0px;
   }
 }
 
 @media screen and (max-width:320px) {
 .city__artist-label {
-  width: 288px;
-  height: 15px;
-  padding-top: 30px;
+  width: 100%;
+  max-width: 288px;
   padding-left: 0;
   padding-right:16px;
+  padding-bottom: 8px;
   }
 }

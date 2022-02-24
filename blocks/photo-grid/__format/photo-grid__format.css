@@ -1,27 +1,27 @@
 .photo-grid__format {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
-  margin: 0px;
-  margin-top: 118px;
+  margin: 118px 0px 0px 0px;
   padding-top: 118px;
-  padding-left:0;
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__format {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     column-gap: 16px;
     row-gap: 16px;
+    margin: 118px 0px 0px 0px;
     padding-top: 90px;
-    margin-top: 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__format {
-    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: 1fr;
     padding-top: 90px;
     row-gap: 12px;
   }

@@ -1,6 +1,5 @@
 .intro__quote-author {
-  width: 100%;
-  max-width: 720px;
+  width: 720px;
   height: 34px;
   font-weight: 400px;
   font-size: 24px;
@@ -12,14 +11,15 @@
 
 @media screen and (max-width: 768px){
   .intro__quote-author{
-    width: 100%;
-    max-width: 720px;
+    width: 720px;
+    height: 34px;
     padding-top: 10px;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro__quote-author{
+    width: 288px;
     height: 34px;
     padding-top: 10px;
   }

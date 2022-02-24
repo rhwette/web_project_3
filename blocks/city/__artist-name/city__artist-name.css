@@ -1,8 +1,8 @@
 .city__artist-name {
-  width: 456px;
+  width: 100%;
+  max-width: 456px;
   height: 22px;
   padding-top: 8px;
-  padding-left: 40px;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -13,17 +13,23 @@
 
 @media screen and (max-width: 768px) {
   .city__artist-name {
-    width: 316px;
+    width: 100%;
+    max-width: 316px;
     height: 22px;
-    padding-left: 28px;
+    padding-left: 0px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city__artist-name {
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
     height: 44px;
     padding-left: 0;
     padding-right:16px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }

@@ -1,4 +1,7 @@
 .city__artist {
   grid-area: artist;
-  max-height: 67px;
+  /*max-height: 67px;*/
+  /*height: 67px;*/
+  margin-top: 23px;
+  margin-bottom: 48px;
 }
