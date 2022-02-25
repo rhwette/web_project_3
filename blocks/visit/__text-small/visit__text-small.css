@@ -1,7 +1,7 @@
 .visit__text-small {
   width: 100%;
   max-width: 280px;
-  height: 22px;
+  /*height: 22px;*/
   margin: 0;
   font-family: "Inter";
   font-size: 18px;
@@ -14,7 +14,7 @@
   .visit__text-small {
     width: 100%;
     max-width: 280px;
-    height: 22px;
+    /*height: 22px;*/
   }
 }
 
@@ -22,7 +22,7 @@
   .visit__text-small {
     width: 100%;
     max-width: 280px;
-    height: 14px;
+    /*height: 14px;*/
     font-size: 14px;
     line-height: 16px;
   }

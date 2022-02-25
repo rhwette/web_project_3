@@ -1,7 +1,7 @@
 .visit__text-big {
   width: 100%;
   max-width: 656px;
-  height: 76px;
+  /*height: 76px;*/
   margin: 0;
   padding-bottom: 32px;
   font-family: Inter;
@@ -22,7 +22,7 @@
   .visit__text-big {
     width: 100%;
     max-width: 288px;
-    height: 35px;
+    /*height: 35px;*/
     font-size: 32px;
     line-height: 35px;
   }
