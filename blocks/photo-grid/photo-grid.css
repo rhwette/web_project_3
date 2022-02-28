@@ -1,16 +1,13 @@
 .photo-grid {
   width: 100%;
   max-width: 1184px;
-  height: 442px;
   padding-top: 118px;
   margin: 0;
  }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    width: 100%;
     max-width: 720px;
-    height: 1104px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -18,9 +15,7 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    width: 100%;
     max-width: 288px;
-    height: 1812px;
     padding-left: 16px;
     padding-right: 16px;
   }

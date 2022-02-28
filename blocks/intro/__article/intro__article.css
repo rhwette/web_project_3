@@ -2,7 +2,7 @@
   width: 720px;
   /*height: 156px;*/
   margin: 0px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
   padding-top: 32px;
@@ -12,8 +12,6 @@
 
 @media screen and (max-width: 768px){
   .intro__article {
-    width: 720px;
-    /*height: 156px;*/
   }
 }
 

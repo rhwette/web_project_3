@@ -1,7 +1,6 @@
 .intro__container{
   width: 100%;
   max-width: 785px;
-  height: 490px;
   margin: 0px;
   margin-right: 0;
   margin-left: 148px;
@@ -9,9 +8,7 @@
 
 @media screen and (max-width: 768px){
   .intro__container{
-    width: 100%;
     max-width: 720px;
-    height: 548px;
     margin:0;
     padding-left: 24px;
   }
@@ -19,6 +16,5 @@
 
 @media screen and (max-width: 320px){
   .intro__container{
-    height: 886px;
   }
 }

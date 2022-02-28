@@ -1,7 +1,7 @@
 .visit {
   width: 100%;
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
   position: relative;
   margin-top: 92px;
   margin-bottom: 92px;
@@ -35,52 +35,14 @@
 
 @media screen and (max-width: 768px) {
   .visit {
-    width: 100%;
     max-width: 768px;
-    height: 746px;
-  }
-  
-.visit::before {
-  content: "";
-  background-image: url("../../images/Visit-Us.png");
-  opacity: 0.8;
-  position: absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
-  width: 100%;
-  max-width: 768px;
-  height: 746px;
-}
-
-.visit:hover::before {
-  opacity: 0.3;
+    min-height: 746px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .visit {
-    width: 100%;
     max-width: 320px;
-    height: 254px;
-  }
-  
-.visit::before {
-  content: "";
-  background-image: url("../../images/Visit-Us.png");
-  opacity: 0.8;
-  position: absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
-  width: 100%;
-  max-width: 320px;
-  height: 254px;
-}
-
-.visit:hover::before {
-  opacity: 0.3;
+    min-height: 254px;
   }
 }

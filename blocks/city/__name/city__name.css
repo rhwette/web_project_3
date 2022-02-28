@@ -1,7 +1,6 @@
 .city__name {
   width: 100%;
   max-width: 460px;
-  height: 152px;
   padding-left: 3px;
   padding-right: 40px;
   font-size: 72px;
@@ -15,9 +14,7 @@
 
 @media screen and (max-width: 768px) {
   .city__name {
-    width: 100%;
     max-width: 340px;
-    height: 92px;
     padding-left: 0;
     padding-right: 28px;
     font-size: 42px;
@@ -27,9 +24,7 @@
 
 @media screen and (max-width: 320px) {
   .city__name {
-    width: 100%;
     max-width: 288px;
-    height: 35px;
     font-size: 32px;
     line-height: 35px;
   }

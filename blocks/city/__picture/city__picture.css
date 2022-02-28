@@ -8,15 +8,12 @@
 
 @media screen and (max-width: 768px) {
   .city__picture {
-    width: 100%;
     max-width: 340px;
-    padding: 0px 0px 0px 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city__picture {
-    width: 100%;
     max-width: 320px;
     margin-left: -16px;
   }

@@ -1,11 +1,11 @@
 .city__artist-label {
   width: 100%;
   max-width: 50px;
-  height: 15px;
   font-size: 12px;
   line-height: 14.52px;
   font-weight: 400;
   font-style: normal;
+  letter-spacing:.12em;
   color: #AAA;
   margin: 0;
   padding-top: 84px;
@@ -21,9 +21,7 @@
 
 @media screen and (max-width:320px) {
 .city__artist-label {
-  width: 100%;
   max-width: 288px;
-  padding-left: 0;
   padding-right:16px;
   padding-bottom: 8px;
   }

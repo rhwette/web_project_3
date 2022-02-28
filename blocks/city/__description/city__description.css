@@ -18,30 +18,16 @@
 
 @media screen and (max-width: 768px) {
   .city__description {
-    width: 100%;
     max-width: 352px;
-    padding-top: 0px;
-    padding-bottom: 25px;
     font-size: 16px;
     line-height: 26.08px;
-  }
-
-  :last-child {
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 }
 
 
 @media screen and (max-width: 320px) {
   .city__description {
-    width: 100%;
     max-width: 288px;
     padding: 30px 16px 25px 0px;
-  }
-
-  :last-child {
-    padding-bottom: 0px;
-    padding-top: 0px;
   }
 }

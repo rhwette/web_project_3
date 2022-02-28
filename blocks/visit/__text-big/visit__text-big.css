@@ -1,10 +1,9 @@
 .visit__text-big {
   width: 100%;
   max-width: 656px;
-  /*height: 76px;*/
   margin: 0;
   padding-bottom: 32px;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
@@ -13,16 +12,12 @@
 
 @media screen and (max-width: 768px) {
   .visit__text-big {
-    width: 100%;
-    max-width: 656px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .visit__text-big {
-    width: 100%;
     max-width: 288px;
-    /*height: 35px;*/
     font-size: 32px;
     line-height: 35px;
   }
