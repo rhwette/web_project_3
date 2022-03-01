@@ -1,4 +1,4 @@
-.lead__logo {
+.header__logo {
   width: 100%;
   max-width: 270px;
   height: 70px;
@@ -6,15 +6,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lead__logo {
+  .header__logo {
   } 
 }
 
 @media screen and (max-width: 320px) {
-  .lead__logo {
+  .header__logo {
     max-width: 200px;
     height: 52px;
     padding-top: 20px;
   }
 }
-

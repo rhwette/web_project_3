@@ -17,7 +17,7 @@
 .visit::before {
   content: "";
   background-image: url("../../images/Visit-Us.png");
-  opacity: .8;
+  opacity: .7;
   position: absolute;
   top:0;
   bottom:0;
@@ -27,11 +27,9 @@
   max-width: auto;
 }
 
-
 .visit:hover::before {
-  opacity: .3;
+  opacity: .2;
   }
-
 
 @media screen and (max-width: 768px) {
   .visit {

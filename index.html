@@ -11,16 +11,19 @@
 <body class="page">
   <div class="page__wrapper">
     <!--HEADER-->
-    <header class="lead">
+    <header class="header">
       <!--LOGO-->
-      <img class="lead__logo" src="./images/logosvg.svg" alt="Practicum Logo" title="logo">
+      <img class="header__logo" src="./images/logosvg.svg" alt="Practicum Logo" title="logo">
+    </header>
+
+    <section class="lead">
       <!--HEADER TITLE-->
       <h1 class="lead__title">From Homeland to Homeland</h1>
       <!--HEADER SUBTITLE-->
       <p class="lead__subtitle">An epic journey from Kentucky to Burundi through Wales and Ukraine</p>
       <!--MAIN ILLUSTRATION-->
       <img class="lead__main-illustration" src="./images/header.png" alt="subititl blah blah" title="imagexxxxx">
-    </header>
+    </section>
 
      <!--INTRO-->
      <article class="intro">
@@ -75,7 +78,8 @@
 
     <!--CITIES-->
     <!--KYIV, UKRAINE-->
-      <div class="city">
+    <section class="cities">
+      <article class="city">
         <h2 class="city__name">Kyiv, Ukraine</h2>
         <img class="city__picture" src="./images/Kyiv_Ukraine.png" alt="picture of Kyiv" title="Kyiv">
         <a class="city__button" href="#">Buy this artwork as NFT</a>
@@ -83,7 +87,7 @@
           <p class="city__artist-label">ARTIST</p>
           <h3 class="city__artist-name">Natalia Dolgushina, content producer</h3>
         </div>
-        <div class="city__descript">
+        <article class="city__descript">
           <p class="city__description">Kyiv (or Kiev), Ukraine's capital,
             is a large city located on the shores of the Dnipro river.
             Of course, no one in their right mind would swim in the river,
@@ -97,10 +101,10 @@
             and those wearing heels. The left bank is considered far less
             interesting and prestigious though, even by people
             who live on the far outskirts of the right one.</p>
-        </div>
-      </div>
+        </article>
+      </article>
             <!--CRICIETH, WALES-->
-            <div class="city">
+            <article class="city">
               <h2 class="city__name">Cricieth, Wales</h2>
               <img class="city__picture" src="./images/Cricieth_Wales.png" alt="picture of Cricieth" title="Cricieth">
               <a class="city__button" href="#">Buy this artwork as NFT</a>
@@ -109,7 +113,7 @@
                 <h3 class="city__artist-name">Steffan Warren, lead editor</h3>
                 <h3 class="city__artist-name">Kseniya Glagoleva, project manager</h3>
               </div>
-              <div class="city__descript">
+              <article class="city__descript">
                 <p class="city__description">The medieval ruin of Cricieth Castle overlooks
                   the town below from a rock that juts out into the sea.
                   It is thought to have been built by Llewelyn the Great
@@ -124,10 +128,10 @@
                   for its spectacular floral displays around town.
                   It was also home to David Lloyd George,
                   the only Welshman ever to hold the office of Prime Minister of the UK.</p>
-              </div>
-            </div>
+              </article>
+            </article>
           <!--BEREA, USA-->
-            <div class="city">
+            <article class="city">
               <h2 class="city__name">Berea, USA</h2>
               <img class="city__picture" src="./images/Berea_KY.png" alt="picture of Berea" title="Berea">
               <a class="city__button" href="#">Buy this artwork as NFT</a>
@@ -135,7 +139,7 @@
                 <p class="city__artist-label">ARTIST</p>
                 <h3 class="city__artist-name">Travis Turner, author and editor</h3>
               </div>
-              <div class="city__descript">
+              <article class="city__descript">
                 <p class="city__description">Berea is a small town located
                   in the central part of Kentucky. The town is surrounded
                   by beautiful forests and countryside. It's known
@@ -151,10 +155,10 @@
                   as well as the first to be coeducational. Somewhat uniquely,
                   it charges no tuition — every student receives
                   a full-tuition scholarship. </p>
-              </div>
-            </div>
+              </article>
+            </article>
           <!--MURAMVYA, BURUNDI-->
-            <div class="city">
+            <article class="city">
               <h2 class="city__name">Muramvya, Burundi</h2>
               <img class="city__picture" src="./images/Muramvya_Burundi.png" alt="picture of Muramvya" title="Muramvya">
               <a class="city__button" href="#">Buy this artwork as NFT</a>
@@ -162,7 +166,7 @@
                 <p class="city__artist-label">ARTIST</p>
                 <h3 class="city__artist-name">Grevisse Kenguruka, tech editor</h3>
               </div>
-              <div class="city__descript">
+              <article class="city__descript">
                 <p class="city__description">Muramvya is one of the 18 provinces of Burundi.
                   In the kingdom era, Muramvya was the royal capital and in 2007,
                   because of its cultural and natural landscape,
@@ -184,10 +188,10 @@
                   It is filled with beautiful vegetation,
                   and a source for the various rivers and streams
                   which provide water around the country.</p>
-              </div>
-            </div>
+                </article>
+              </article>
           <!--MY HOMETOWN, EARTH-->
-            <div class="city">
+            <article class="city">
               <h2 class="city__name">Hometown, Earth</h2>
               <img class="city__picture" src="./images/hometown_earth.png" alt="picture of Kyiv" title="Kyiv">
               <a class="city__button" href="#">Buy this artwork as NFT</a>
@@ -195,28 +199,23 @@
                 <p class="city__artist-label">ARTIST</p>
                 <h3 class="city__artist-name">many contributors</h3>
               </div>
-              <div class="city__descript">
+              <article class="city__descript">
                 <p class="city__description">Hometown, Earth.... a fascinating location</p>
                 <p class="city__description">Each of us has a Hometown, Earth, that we
                   call our own. </p>
-              </div>
-            </div>
-
+                </article>
+              </article>
+    </section>
         <!--VISIT US-->
         
         <section class="visit">
             <h2 class="visit__text-big">Visit us</h2>
-            <p class="visit__text-small">Year-round</p>
-            <p class="visit__text-small">Practicum Art Gallery</p>
-            <p class="visit__text-small">404 Tim Berner-Lee Ave</p>
-      
-            <form action="http://www.inf.fu-berlin.de/lehre/SS01/hc/www/www2.html">
-              <button class=visit__button>Buy tickets</button>
-            </form>
+            <p class="visit__text-small">Year-round Practicum&nbsp;Art&nbsp;Gallery 404&nbsp;Tim&nbsp;Berners-Lee&nbsp;Ave</p>
+            <a class="visit__button" href="#">Buy tickets</a>
         </section> 
-        <section class="footer">
-          <h3 class="footer__text">&copy;2022 rhwette</h3>
-        </section>
+        <footer class="footer">
+          <p class="footer__text">&copy;2022 rhwette</p>
+        </footer>
   </div>
 </body>
 </html>
