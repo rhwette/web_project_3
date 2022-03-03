@@ -3,20 +3,21 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
-  margin: 118px 0px 0px 0px;
-  padding-top: 118px;
+  margin: 118px 48px 92px 48px;
+  padding-left: 0px;
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__format {
     grid-template-columns: 1fr 1fr;
-    padding-top: 90px;
+    margin: 90px 24px 88px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid__format {
     grid-template-columns: 1fr;
+    margin: 90px 16px 62px 16px;
     row-gap: 12px;
   }
 }

@@ -1,23 +1,22 @@
 .intro__article {
-  width: 720px;
-  /*height: 156px;*/
-  margin: 0px;
+  width: 100%;
+  max-width: 720px;
+  margin: 32px 65px 0px 0px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
-  padding-top: 32px;
-  margin-bottom: 118px;
   text-align: left;
 }
 
 @media screen and (max-width: 768px){
   .intro__article {
+    margin: 32px 0px 0px 0px;
   }
 }
 
 @media screen and (max-width: 320px){
   .intro__article {
-    width: 288px;
-    /*height: 390px;*/
+    max-width: 288px;
+    margin: 32px 0px 0px 0px;
   }
 }

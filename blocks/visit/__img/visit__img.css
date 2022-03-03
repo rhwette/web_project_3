@@ -1,0 +1,24 @@
+.visit__img {
+  width: 100%;
+  max-width: 1184px;
+  min-height: 740px;
+}
+
+.visit__img:hover{
+  opacity: .2;
+  min-height: 750px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .visit__img {
+      max-width: 768px;
+      min-height: 750px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .visit__img {
+      max-width: 320px;
+      min-height: 254px;
+    }
+  }

@@ -1,6 +1,15 @@
 .cities {
-  margin-left: 145px;
-  margin-right: 0px;
-  margin-top: 92px;
-  margin-bottom: 0px;
+  margin: 0 148px 0 148px;
+}
+
+@media screen and (max-width:768px) {
+  .cities {
+    margin: 0 24px 0 24px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cities {
+    margin: 0 16px 0 16px;
+  }
 }

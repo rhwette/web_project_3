@@ -20,6 +20,5 @@
 @media screen and (max-width: 320px) {
   .city__artist-name {
     max-width: 288px;
-    padding-right:16px;
   }
 }

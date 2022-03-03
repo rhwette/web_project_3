@@ -20,7 +20,6 @@
 /* INTRO*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
-@import url(../blocks/intro/__container/intro__container.css);
 @import url(../blocks/intro/__quote/intro__quote.css);
 @import url(../blocks/intro/__quote-author/intro__quote-author.css);
 @import url(../blocks/intro/__article/intro__article.css);
@@ -48,6 +47,8 @@
 
 /* VISIT*/
 @import url(../blocks/visit/visit.css);
+@import url(../blocks/visit/__img/visit__img.css);
+@import url(../blocks/visit/__text/visit__text.css);
 @import url(../blocks/visit/__button/visit__button.css);
 @import url(../blocks/visit/__text-big/visit__text-big.css);
 @import url(../blocks/visit/__text-small/visit__text-small.css);

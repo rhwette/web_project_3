@@ -14,15 +14,12 @@
 
 @media screen and (max-width:768px){
 .city__artist-label{
-  padding-top: 0px;
-  padding-left: 0px;
   }
 }
 
 @media screen and (max-width:320px) {
 .city__artist-label {
   max-width: 288px;
-  padding-right:16px;
   padding-bottom: 8px;
   }
 }

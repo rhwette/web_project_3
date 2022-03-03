@@ -1,5 +1,4 @@
 .footer__text {
-  position: relative;
   font-family: "Inter", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -11,19 +10,11 @@
 
 @media screen and (max-width: 768px) {
   .footer__text {
-  width: 165px;
-  /*height: 16px;*/
-  padding-left: 301px;
-  padding-right: 302px;
   } 
 }
 
 @media screen and (max-width: 320px) {
   .footer__text {
-    width: 165px;
-    /*height: 14px;*/
     line-height: 14px;
-    padding-left: 77px;
-    padding-right: 78px;
   } 
 }

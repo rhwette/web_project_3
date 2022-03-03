@@ -1,11 +1,6 @@
 .city {
-  /*
-  margin-left: 145px;
-  margin-right: 0px;
-  margin-top: 92px;
-  margin-bottom: 0px;
-  */
-  padding-top: 92px;
+  margin-bottom: 80px;
+  padding-top: 0px;
   font-family: "Inter", Arial, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -20,14 +15,13 @@
 
 @media screen and (max-width: 768px) {
   .city {
-  margin-left: 24px;
-  column-gap: 16px;
+  column-gap: 28px;
+  grid-template-columns: 340px 1fr;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city {
-    margin-left: 16px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, auto);
     grid-template-areas:

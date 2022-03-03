@@ -1,30 +1,26 @@
 .lead__main-illustration {
   width: 100%;
   max-width: 984px;
-  height: 615px;
-  padding-top: 64px;
+  margin: 64px 148px 0px 148px;
 }
 
 @media screen and (max-width:900px) {
   .lead__main-illustration {
     max-width: 900px;
-    height: 562px;
-    padding-top: 60px;
+    margin: 36px 0px 0px 0px;
   }
 }
 
 @media screen and (max-width:768px) {
   .lead__main-illustration {
     max-width: 768px;
-    height: 480px;
-    padding-top: 36px;
+    margin: 36px 0px 0px 0px;
   }
 }
 
 @media screen and (max-width:320px) {
   .lead__main-illustration {
     max-width: 320px;
-    height: 200px;
-    padding-top: 40px;
+    margin: 40px 0px 0px 0px;
   }
 }

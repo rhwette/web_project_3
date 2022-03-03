@@ -1,8 +1,8 @@
 .city__name {
   width: 100%;
-  max-width: 460px;
+  max-width: 484px;
+  min-width:288px;
   padding-left: 3px;
-  padding-right: 40px;
   font-size: 72px;
   line-height: 76px;
   font-weight: 900;
@@ -16,7 +16,6 @@
   .city__name {
     max-width: 340px;
     padding-left: 0;
-    padding-right: 28px;
     font-size: 42px;
     line-height: 46px;
   }
