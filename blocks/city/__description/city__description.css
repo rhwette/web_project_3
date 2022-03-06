@@ -1,6 +1,7 @@
 .city__description {
   max-width: 484px;
-  min-width: 250px;
+  /* min-width: 250px; */
+  min-width: 352px;
   padding-top: 0px;
   padding-bottom: 25px;
   font-size: 18px;
@@ -19,22 +20,24 @@
 @media screen and (max-width: 768px) {
   .city__description {
     max-width: 352px;
-    min-width: 200px;
+    min-width: 288px;
+    /* min-width: 200px; */
+    /* min-width: 250px; */
     font-size: 16px;
     line-height: 26.08px;
   }
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
   .city__description {
     min-width: 100px;
-    font-size: 16px;
   }
-}
+} */
 
 @media screen and (max-width: 320px) {
   .city__description {
     max-width: 288px;
+    min-width: 288px;
     padding: 30px 16px 25px 0px;
   }
 }

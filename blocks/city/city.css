@@ -23,7 +23,9 @@
 @media screen and (max-width: 320px) {
   .city {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: 30px 98px 320px 289px 300px 100px;
+    /* grid-template-rows: repeat(6, auto); */
+    /* grid-template-rows: 1fr 1fr 240px 1fr 1fr 1fr; */
     grid-template-areas:
     "name"
     "artist"

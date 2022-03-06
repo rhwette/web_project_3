@@ -9,5 +9,6 @@
 
 @media screen and (max-width: 320px) {
   .city__descript {
+    margin-left: 16px;
   }
 }

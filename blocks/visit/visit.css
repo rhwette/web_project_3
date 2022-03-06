@@ -1,9 +1,10 @@
 .visit {
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
+  height: 740px;
   position: relative;
-  margin: 92px 0px 92px 0px;
+  margin-top: 92px;
+  margin-bottom: 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,19 +13,36 @@
   font-family: "Inter", Arial, sans-serif;
   color: #FFF;
 }
-  
+
+.visit::before {
+  content: "";
+  background-image: url("../../images/Visit-Us.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: none;
+  opacity: .7;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width: auto;
+  max-width: auto;
+}
+
+.visit:hover::before {
+  opacity: .2;
+  }
+
 @media screen and (max-width: 768px) {
   .visit {
     max-width: 768px;
-    min-height: 746px;
-    margin: 92px 0px 88px 0px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .visit {
-    margin: 64px 0px 64px 0px;
     max-width: 320px;
-    min-height: 254px;
+    height: 254px;
   }
 }

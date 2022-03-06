@@ -20,6 +20,7 @@
 @media screen and (max-width:320px) {
 .city__artist-label {
   max-width: 288px;
+  padding-top: 30px;
   padding-bottom: 8px;
   }
 }
