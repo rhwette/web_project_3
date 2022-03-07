@@ -12,8 +12,7 @@
   font-style: normal;
   text-decoration: none;
   margin-top: 48px;
-  width: 100%;
-  max-width: 248px;
+  width: 248px;
   transition: all 0.2s;
   grid-area: button;
 }
@@ -30,8 +29,9 @@
 
 @media screen and (max-width: 320px) {
   .city__button {
-    padding: 13px 40px 13px 40px;
-    width: 288px;
     margin-left: 16px;
+    width: 100%;
+    max-width:248px;
+    font-size: 16px;
   }
 }
