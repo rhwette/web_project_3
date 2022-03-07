@@ -14,7 +14,6 @@
   margin-top: 48px;
   width: 100%;
   max-width: 248px;
-  max-height: 48px;
   transition: all 0.2s;
   grid-area: button;
 }
@@ -25,13 +24,13 @@
 
 @media screen and (max-width: 768px) {
   .city__button {
+    max-width: 248px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city__button {
     padding: 13px 40px 13px 40px;
-    /* max-width: 288px; */
     width: 288px;
     margin-left: 16px;
   }

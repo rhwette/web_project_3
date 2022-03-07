@@ -1,7 +1,11 @@
 .city__name {
   width: 100%;
-  max-width: 484px;
-  min-width:288px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 300px;
+  padding-bottom: 48px;
+  padding-top: 80px;
   padding-left: 3px;
   font-size: 72px;
   line-height: 76px;
@@ -12,10 +16,21 @@
   grid-area: name;
 }
 
+@media screen and (max-width: 1150px) {
+  .city__name {
+    max-width: 340px;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .city__name {
     max-width: 340px;
-    padding-left: 0;
+    padding-top: 0px;
+    padding-left: 0px;
     font-size: 42px;
     line-height: 46px;
   }

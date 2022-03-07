@@ -1,6 +1,7 @@
 .city__picture {
   width: 100%;
   max-width: 460px;
+  min-width: 320px;
   padding: 0px 0px 0px 0px;
   margin: 0;
   grid-area: picture;
@@ -9,7 +10,7 @@
 @media screen and (max-width: 768px) {
   .city__picture {
     max-width: 340px;
-    min-width: 320px;
+    min-width: 150px;
   }
 }
 

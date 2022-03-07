@@ -1,5 +1,4 @@
 .city {
-  margin-bottom: 80px;
   padding-top: 0px;
   font-family: "Inter", Arial, sans-serif;
   display: grid;
@@ -15,8 +14,8 @@
 
 @media screen and (max-width: 768px) {
   .city {
+  padding-top: 72px;
   column-gap: 28px;
-  grid-template-columns: 340px 1fr;
   }
 }
 
@@ -24,8 +23,7 @@
   .city {
     grid-template-columns: 1fr;
     grid-template-rows: 30px 98px 320px 289px 300px 100px;
-    /* grid-template-rows: repeat(6, auto); */
-    /* grid-template-rows: 1fr 1fr 240px 1fr 1fr 1fr; */
+    padding-top: 0px;
     grid-template-areas:
     "name"
     "artist"

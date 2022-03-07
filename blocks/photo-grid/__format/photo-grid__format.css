@@ -3,14 +3,14 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 16px;
-  margin: 118px 48px 92px 48px;
+     margin: 118px 48px 12px 48px;
   padding-left: 0px;
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid__format {
     grid-template-columns: 1fr 1fr;
-    margin: 90px 24px 88px 24px;
+    margin: 90px 24px 16px 24px;
   }
 }
 
