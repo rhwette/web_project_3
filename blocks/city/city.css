@@ -23,7 +23,7 @@
   .city {
     grid-template-columns: 1fr;
     grid-template-rows: 30px 98px 320px 289px 300px 100px;
-    padding-top: 0px;
+    padding-top: 72px;
     grid-template-areas:
     "name"
     "artist"
