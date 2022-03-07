@@ -11,11 +11,6 @@
   margin: 0;
 }
 
-/* :last-child {
-  padding-bottom: 0px;
-  padding-top: 0px;
-} */
-
 @media screen and (max-width: 768px) {
   .city__description {
     max-width: 352px;
@@ -28,7 +23,6 @@
 @media screen and (max-width: 320px) {
   .city__description {
     max-width: 288px;
-    /* padding: 30px 0px 25px 0px; */
     padding: 30px 0px 0px 0px;
   }
 }
