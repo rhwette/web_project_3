@@ -1,5 +1,7 @@
 .cities {
   margin: 0 148px 0 148px;
+  /* margin: 80px 148px 0 148px; */
+
 }
 
 @media screen and (max-width:768px) {

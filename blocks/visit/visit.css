@@ -1,7 +1,7 @@
 .visit {
   width: 100%;
-  max-width: 1184px;
-  height: 740px;
+  max-width: 1280px;
+  min-height: 740px;
   position: relative;
   margin-top: 92px;
   margin-bottom: 92px;
@@ -43,6 +43,8 @@
 @media screen and (max-width: 320px) {
   .visit {
     max-width: 320px;
-    height: 254px;
+    min-height: 254px;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 }

@@ -1,5 +1,6 @@
 .city {
-  padding-top: 0px;
+  /* padding-top: 0px; */
+  padding-top: 80px;
   font-family: "Inter", Arial, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,13 +18,20 @@
   padding-top: 72px;
   column-gap: 28px;
   }
+  .city:nth-child(4) .city__name {
+     margin-bottom: 46px;
+  }
+  .city:nth-child(4) .city__artist {
+     padding-top:46px;
+ }
 }
 
 @media screen and (max-width: 320px) {
   .city {
     grid-template-columns: 320px;
     grid-template-rows: repeat(6, auto);
-    padding-top: 72px;
+    /* padding-top: 72px; */
+    padding-top: 39px;
     grid-template-areas:
     "name"
     "artist"
@@ -32,4 +40,15 @@
     "descript"
     "button";
   }
+  .city:nth-child(4) .city__name {
+    margin-bottom: 0px;
+    min-height: 70px;
+    /* padding-top: 50px; */
+ }
+ .city:nth-child(4) .city__artist {
+  padding-top:0px;
+}
+ .city:nth-child(4) {
+   padding-top: 50px;
+ }
 }

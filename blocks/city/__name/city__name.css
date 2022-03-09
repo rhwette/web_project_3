@@ -2,10 +2,11 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  /* justify-content: end; */
+  justify-content: start;
   max-width: 300px;
   padding-bottom: 48px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   padding-left: 3px;
   font-size: 72px;
   line-height: 76px;
@@ -21,6 +22,7 @@
     max-width: 340px;
     padding-top: 0px;
     padding-left: 0px;
+    padding-bottom: 46px;
     font-size: 42px;
     line-height: 46px;
   }
@@ -28,20 +30,31 @@
 
 @media screen and (max-width: 768px) {
   .city__name {
+    /* justify-content: end; */
+    justify-content:safe;
+    height: 46px;
     max-width: 340px;
     padding-top: 0px;
     padding-left: 0px;
+    padding-bottom: 46px;
     font-size: 42px;
     line-height: 46px;
   }
+  /* .city__name:nth-child(4) {
+    height: 75px;
+    padding-bottom: 46px;
+    color: red;
+  } */
 }
 
 @media screen and (max-width: 320px) {
   .city__name {
+    justify-content: end;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
     padding-bottom: 0px;
+    min-height: 35px;
   }
 }
