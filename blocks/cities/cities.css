@@ -1,17 +1,21 @@
 .cities {
-  margin: 0 148px 0 148px;
-  /* margin: 80px 148px 0 148px; */
-
+  background-color: yellow;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0;
 }
 
 @media screen and (max-width:768px) {
   .cities {
-    margin: 0 24px 0 24px;
+    background-color: green;
+    width: 100%;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width:320px) {
   .cities {
-    margin: 0;
+      width: 100%;
+      max-width: 320px;
   }
 }

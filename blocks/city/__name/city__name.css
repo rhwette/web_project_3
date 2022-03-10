@@ -1,15 +1,11 @@
 .city__name {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: end; */
-  justify-content: start;
+  align-content:flex-start;
   max-width: 300px;
   padding-bottom: 48px;
-  /* padding-top: 80px; */
   padding-left: 3px;
-  font-size: 72px;
-  line-height: 76px;
+  font-size: 5.616vw;
+  line-height: 5.928vw;
   font-weight: 900;
   font-style: normal;
   color: #FFF;
@@ -17,42 +13,25 @@
   grid-area: name;
 }
 
-@media screen and (max-width: 1150px) {
-  .city__name {
-    max-width: 340px;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 46px;
-    font-size: 42px;
-    line-height: 46px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .city__name {
-    /* justify-content: end; */
-    justify-content:safe;
+    align-content: end;
     height: 46px;
     max-width: 340px;
     padding-top: 0px;
     padding-left: 0px;
-    padding-bottom: 46px;
-    font-size: 42px;
-    line-height: 46px;
+    padding-bottom: 0px;
+    font-size: 5.46vw;
+    line-height: 5.98vw;
   }
-  /* .city__name:nth-child(4) {
-    height: 75px;
-    padding-bottom: 46px;
-    color: red;
-  } */
 }
 
 @media screen and (max-width: 320px) {
   .city__name {
     justify-content: end;
     max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 10vw;
+    line-height: 10.938vw;
     margin-left: 16px;
     padding-bottom: 0px;
     min-height: 35px;

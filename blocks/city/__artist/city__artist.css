@@ -2,11 +2,7 @@
   grid-area: artist;
   flex-direction: column;
   justify-content: end;
-  /* justify-content: start; */
-  /* margin-top: 23px; */
   padding-bottom: 48px;
-  /* margin-bottom: 48px; */
-  /* margin-left: 16px; */
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -14,11 +10,9 @@
 
 @media screen and (max-width: 768px) {
   .city__artist {
-    /* margin-bottom: 46px; */
     margin-left: 0px;
-    justify-content: start;
-    /* padding-bottom: 46px; */
-    padding-bottom: 0px;
+    justify-content: end;
+    padding-bottom: 46px;
   }
 }
 
@@ -26,5 +20,6 @@
   .city__artist {
     margin-bottom: 30px;
     margin-left: 16px;
+    justify-content: end;
   }
 }

@@ -3,8 +3,8 @@
   min-width: 240px;
   padding-top: 0px;
   padding-bottom: 25px;
-  font-size: 18px;
-  line-height: 29.34px;
+  font-size: 1.404vw;
+  line-height: 2.289vw;
   font-weight: 400;
   font-style: normal;
   color: #FFF;
@@ -12,26 +12,24 @@
 }
 
 .city__description:last-child {
-  /* padding-top: 0px; */
   padding-bottom: 0px;
 }
 
 @media screen and (max-width: 768px) {
   .city__description {
-    /* padding-top: 46px; */
-    /* padding-bottom: 0px; */
-    /* padding-bottom: 46px; */
     padding-bottom: 25px;
     max-width: 352px;
     min-width: 150px;
-    font-size: 16px;
-    line-height: 26.08px;
+    font-size: 2.08vw;
+    line-height: 3.39vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .city__description {
     max-width: 288px;
+    font-size: 5vw;
+    line-height: 8.15vw;
     padding: 30px 0px 0px 0px;
   }
 }

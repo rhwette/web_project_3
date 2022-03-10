@@ -1,10 +1,10 @@
 .city {
-  /* padding-top: 0px; */
+  overflow:hidden;
+  margin: 0 148px 0 148px;
   padding-top: 80px;
   font-family: "Inter", Arial, sans-serif;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, auto);
   column-gap: 40px;
   grid-template-areas:
     "name artist"
@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 768px) {
   .city {
+  margin: 0 24px 46px 24px;
   padding-top: 72px;
   column-gap: 28px;
   }
@@ -28,9 +29,9 @@
 
 @media screen and (max-width: 320px) {
   .city {
+    margin: 0;
     grid-template-columns: 320px;
     grid-template-rows: repeat(6, auto);
-    /* padding-top: 72px; */
     padding-top: 39px;
     grid-template-areas:
     "name"
@@ -43,7 +44,6 @@
   .city:nth-child(4) .city__name {
     margin-bottom: 0px;
     min-height: 70px;
-    /* padding-top: 50px; */
  }
  .city:nth-child(4) .city__artist {
   padding-top:0px;

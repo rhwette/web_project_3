@@ -6,13 +6,14 @@
   text-align:center;
   display: inline-block;
   font-family: 'Inter', Arial, sans-serif;
-  font-size: 18px;
-  line-height: 21.78px;
+  font-size: 1.404vw;
+  line-height: 1.699vw;
   font-weight: 600;
   font-style: normal;
   text-decoration: none;
   margin-top: 48px;
-  width: 248px;
+  max-width: 19.344vw;
+  width: 100%;
   transition: all 0.2s;
   grid-area: button;
 }
@@ -23,7 +24,9 @@
 
 @media screen and (max-width: 768px) {
   .city__button {
-    max-width: 248px;
+    max-width: 32.24vw;
+    font-size: 2.34vw;
+    line-height: 2.8314vw;
   }
 }
 
@@ -31,7 +34,8 @@
   .city__button {
     margin-left: 16px;
     width: 100%;
-    max-width:248px;
-    font-size: 16px;
+    max-width: 90vw;
+    font-size: 5.625vw;
+    line-height: 6.806vw;
   }
 }
