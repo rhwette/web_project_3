@@ -2,7 +2,8 @@
   background-color: #0278FE;
   border-radius: 4px;
   color:#FFFFFF;
-  padding: 13px 20px 13px 20px;
+  /* padding: 13px 20px 13px 20px; */
+  padding: 13px 0px 13px 0px;
   text-align: center;
   display: inline-block;
   font-family: 'Inter', Arial, sans-serif;
@@ -10,7 +11,7 @@
   line-height: 21.78px;
   font-weight: 600;
   font-style: normal;
-  margin-top: 48px;
+  margin-top: 32px;
   width: 100%;
   max-width: 137px;
   transition: all 0.2s;
@@ -25,11 +26,13 @@
 @media screen and (max-width:768px) {
   .visit__button {
     display: inline-block;
+    margin-top: 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .visit__button {
-    margin-top: 30px;
+    margin-top: 16px;
+    /* padding: 13px 0px 13px 0px; */
   }
 }

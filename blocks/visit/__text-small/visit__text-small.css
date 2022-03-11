@@ -17,7 +17,9 @@
 
 @media screen and (max-width: 320px) {
   .visit__text-small {
+    /* min-height: 48px; */
     font-size: 14px;
     line-height: 16px;
+    font-style: normal;
   }
 }

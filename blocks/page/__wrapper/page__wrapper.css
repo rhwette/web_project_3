@@ -1,6 +1,8 @@
 .page__wrapper {
  width: 100%;
  max-width: 1280px;
+ /* change to margin 0 */
  margin: auto;
+ /* margin: 0; */
  box-sizing: content-box;
 }

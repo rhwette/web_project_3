@@ -14,10 +14,16 @@
 
 @media screen and (max-width: 768px) {
   .city {
-  margin: 0 24px 46px 24px;
+  /* m-b should be 0 */
+  /* margin: 0 24px 46px 24px; */
+  margin: 0 24px 0px 24px;
   padding-top: 72px;
   column-gap: 28px;
   }
+  .city:nth-child(2) .city__name {
+    margin-top: 20.42px;
+ }
+
   .city:nth-child(4) .city__name {
      margin-bottom: 46px;
   }
@@ -31,7 +37,10 @@
     margin: 0;
     grid-template-columns: 320px;
     grid-template-rows: repeat(6, auto);
-    padding-top: 39px;
+    /* change p-t to 50; seems the 
+    brief has changed*/
+    /* padding-top: 39px; */
+    padding-top: 50px;
     grid-template-areas:
     "name"
     "artist"
@@ -47,7 +56,8 @@
  .city:nth-child(4) .city__artist {
   padding-top:0px;
 }
- .city:nth-child(4) {
+/* the below is no longer needed;*/
+ /* .city:nth-child(4) {
    padding-top: 50px;
- }
+ } */
 }

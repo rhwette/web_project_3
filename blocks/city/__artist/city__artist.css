@@ -15,7 +15,12 @@
 
 @media screen and (max-width: 320px) {
   .city__artist {
-    margin-bottom: 30px;
+    /* there is both m-b and p-b which
+    causes the gap to be too big*/
+    /*to fix, remove m-b and 
+    reset p-b from 48 px to 30px */
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
     margin-left: 16px;
   }
 }

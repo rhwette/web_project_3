@@ -1,4 +1,6 @@
 .content {
     max-width: 1280px;
+    /* change to margin: 0 */
     margin: auto;
+    /* margin: 0; */
 }
