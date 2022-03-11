@@ -2,9 +2,6 @@
   background-color: #0278FE;
   border-radius: 4px;
   color:#FFFFFF;
-  /* try padding l & r = 0*/
-  /* this will decrease button width
-  to correct size*/
   padding: 13px 0px 13px 0px;
   text-align:center;
   display: inline-block;
@@ -30,9 +27,6 @@
     max-width: 32.24vw;
     font-size: 2.34vw;
     line-height: 2.8314vw;
-    /* try padding l & r = 0*/
-    /* this will decrease button width
-    to correct size*/
     padding: 13px 0px 13px 0px;
   }
 }
@@ -40,16 +34,9 @@
 @media screen and (max-width: 320px) {
   .city__button {
     margin-left: 16px;
-    /* add m-r 16px to match brief*/
     margin-right: 16px;
-    /*try 0 padding on left and right
-    of the button text - this will
-    make the button the correct size*/
     padding: 13px 0px 13px 0px;
-    /* add 30px margin top*/
-    /* this will override 48px m-top;*/
     margin-top: 30px;
-    /* width: 100%; this repeats from 1280 */
     max-width: 90vw;
     font-size: 5.625vw;
     line-height: 6.806vw;
